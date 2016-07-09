@@ -15,7 +15,7 @@ h1 {
   	text-align: left;
 }
 
-h3 { 
+h3 {
 	text-align: center;
 	font-size: 30px;
 }
@@ -28,7 +28,13 @@ header {
   text-align: center;
 }
 
-button {
+.container {
+    margin: 0 auto;
+    width: 700px;
+}
+
+.button {
+    color: black;
 	display: block;
 	background-color: #f9e42e;
 	border: none;
@@ -38,15 +44,22 @@ button {
 	padding: 20px;
 	margin: 20px auto;
 	text-align: center;
+    text-decoration: none;
+    width: 180px;
 }
 
 .benefits {
-	font-weight:13px;
-	padding-left: 150px;
 	width: 700px;
 	margin: auto;
 	padding: 40px 0px;
-	
+}
+
+.benefits h2 {
+    font-weight: 600;
+}
+
+.benefits ul {
+    margin-left: 60px;
 }
 
 .benefits p {
@@ -54,29 +67,50 @@ button {
 	padding-bottom: 10px;
 }
 
+.quote {
+    background: url("../images/testimonial_bg.jpg") no-repeat center top;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+    font-size: 28px;
+}
+
 .quote p {
-	height: 200px;
-	background: url("../images/header_bg.jpg") no-repeat center top;
-	display:block;
-	color: white;
-	font-weight: 18px; 
 	font-style: italic;
-	padding-top: 10px;
-	padding-bottom: 10px
 }
 
-/*h4{
-	font-style: bold;
-	font-weight: 18px;
-
+.signup {
+    background-color: #f9e42e;
+    padding: 20px 0;
 }
 
-h5 {
-	color: #f9e42e;
+.signup .button {
+    background-color: black;
+    color: white;
 }
 
-footer{
-	font-size: 24px
+footer {
+    background-color: black;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
 
+footer h5 {
+    color: #f9e42e;
+    font-size: 24px;
+}
 
-}*/
+footer .social {
+    padding: 50px 0;
+}
+
+footer .twitter {
+    padding: 10px;
+    width: 30px;
+}
+
+footer .facebook {
+    padding: 10px;
+    width: 12px;
+}
